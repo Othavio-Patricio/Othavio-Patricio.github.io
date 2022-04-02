@@ -2,28 +2,77 @@ body{
     font-family: 'Oswald', sans-serif;
     background-color: #EBEBEB;
     color: #2D3139;
+}
+
+#header{
+    color: #E0E0E0;
+    background-color: #E0E0E0;
+    position: fixed;
+    margin: -100px -500px 0 -20px;
+    padding-left: 100%;
+    padding-right: 100%;
+    padding-bottom: 185px;
+    z-index: 98;
+}
+
+.othavio, .othavio2 {
+    font-family: 'Montserrat', sans-serif;
+    color: #2D3139;
+    margin-top: -36px;
+    font-weight: 500;
     text-align: center;
 }
-.othavio {
-    font-family: 'Montserrat', sans-serif;;
-    font-size: 50px;
-    font-weight: 500;
-    border: #2D3139;
-    border-style: solid;
-    border-width: 3px;
-    padding: 15px;
-    /*margin-right: 41%;
-    margin-left: 41%;*/
+
+.othavio2 {
+    color: #2D3139;
+    position: fixed;
+    font-size: 30px;
+    border: 2px solid #2D3139;
+    width: 150px;
+    padding: 8px;
+    left: 43.8%;
+    z-index: 99;
 }
+
+.othavio {
+    position: absolute;
+    background-color: #E0E0E0;
+    font-size: 50px;
+    border: 3px solid #2D3139;
+    width: 280px;
+    padding: 15px;
+    left: 40%;
+    z-index: 100;
+}
+
+.primeironome{
+    font-weight: bolder;
+}
+
+#othavio {
+    position: absolute;
+    top: 240px;
+    left: 39.9%;
+    width: 320px;
+}
+
 .description{
+    text-align: center;
     font-size: 25px;
     font-weight: 300;
 
 }
+
 .links {
     color: #8A4ABF;
     text-decoration: none;
 }
+
 .list {
     font-size: 20px;
+}
+
+.texto-geral {
+    position: absolute;
+    top: 570px;
 }
