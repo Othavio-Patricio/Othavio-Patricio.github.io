@@ -5,6 +5,7 @@ body{
 }
 
 #header{
+    content: "";
     color: #E0E0E0;
     background-color: #E0E0E0;
     position: fixed;
@@ -32,7 +33,7 @@ body{
     width: 150px;
     padding: 8px;
     z-index: 99;
-    margin-top: -35px;
+    margin-top: 5px;
 }
 
 #othavio-link, #othavio-link:visited, #othavio-link:active  {
@@ -48,11 +49,7 @@ body{
     width: 280px;
     padding: 15px;
     z-index: 100;
-    margin-top: -36px;
-}
-
-.center {
-    
+    margin-top: 4px;
 }
 
 .primeironome{
@@ -62,15 +59,34 @@ body{
 #othavio {
     position: absolute;
     top: 240px;
-    left: 39.9%;
+    left: 50%;
+    transform: translate(-50%);
     width: 320px;
+    z-index: 89;
 }
 
-.description{
+.boxes{
+    position: absolute;
     text-align: center;
     font-size: 25px;
     font-weight: 300;
+    background-color: #E0E0E0;
+    width: 300px;
+    padding: 15px;
+    border: #EBEBEB solid 10px;
+    z-index: 90;
+}
 
+.description{
+    top: 550px;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.usa-experience {
+    top: 1000px;
+    left: 50%;
+    transform: translate(-50%);
 }
 
 .links {
@@ -79,10 +95,7 @@ body{
 }
 
 .list {
-    font-size: 20px;
-}
-
-.texto-geral {
     position: absolute;
-    top: 570px;
+    font-size: 20px;
+    top: 800px;
 }
