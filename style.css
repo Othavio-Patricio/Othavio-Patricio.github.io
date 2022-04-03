@@ -4,8 +4,11 @@ body{
     color: #2D3139;
 }
 
+header, div, footer {
+    display: block;
+}
+
 #header{
-    content: "";
     color: #E0E0E0;
     background-color: #E0E0E0;
     position: fixed;
@@ -16,7 +19,7 @@ body{
     z-index: 98;
 }
 
-.othavio, .othavio2 {
+.othavio, .othavio2, .othavio3 {
     font-family: 'Montserrat', sans-serif;
     color: #2D3139;
     font-weight: 500;
@@ -26,7 +29,6 @@ body{
 }
 
 .othavio2 {
-    color: #2D3139;
     position: fixed;
     font-size: 30px;
     border: 2px solid #2D3139;
@@ -75,23 +77,22 @@ body{
     padding: 15px;
     border: #EBEBEB solid 10px;
     z-index: 90;
+    transform: translate(-50%);
 }
 
 .description{
-    top: 550px;
-    left: 50%;
-    transform: translate(-50%);
+    top: 350px;
+    left: 65%;
 }
 
 .usa-experience {
-    top: 1170px;
+    top: 1420px;
     left: 35%;
-    transform: translate(-50%);
 }
 
 #othavio-neve {
     position: absolute;
-    top: 1000px;
+    top: 1250px;
     width: 1250px;
     left: 67.2%;
     transform: translate(-50%);
@@ -100,7 +101,7 @@ body{
 
 #othavio-anju-arco {
     position: absolute;
-    top: 1380px;
+    top: 1630px;
     width: 210px;
     left: 79%;
     transform: translate(-50%);
@@ -109,7 +110,7 @@ body{
 
 #othavio-frango {
     position: absolute;
-    top: 1315px;
+    top: 1565px;
     width: 200px;
     left: 89%;
     transform: translate(-50%);
@@ -118,7 +119,7 @@ body{
 
 #othavio-bowl {
     position: absolute;
-    top: 1050px;
+    top: 1300px;
     width: 230px;
     left: 82%;
     transform: translate(-50%);
@@ -134,4 +135,65 @@ body{
     position: absolute;
     font-size: 20px;
     top: 800px;
+}
+
+#footer {
+    color: #E0E0E0;
+    background-color: #E0E0E0;
+    position: absolute;
+    top: 2000px;
+    margin: 0;
+    padding-left: 99.4%;
+    padding-top: 185px;
+    z-index: 98;
+}
+
+.othavio3 {
+    position: absolute;
+    font-size: 45px;
+    border: 3px solid #2D3139;
+    width: 240px;
+    margin-bottom: 300px;
+    padding: 14px;
+    z-index: 100;
+    left: 2%;
+    transform: translate(0);
+    top: 1985px;
+}
+
+.footer-text {
+    text-transform: uppercase;
+    font-size: 22px;
+    position: absolute;
+    top: 2010px;
+    z-index: 100;
+    left: 500px;
+}
+
+.footer-links, .footer-links:visited {
+    color: #2D3139;
+    text-decoration: none;
+}
+
+#twitter, #instagram, #linkedin, #github {
+    position: absolute;
+    z-index: 99;
+    width: 30px;
+    top: 2100px;
+}
+
+#twitter {
+    left: 1600px;
+}
+
+#instagram {
+    left: 1650px;
+}
+
+#linkedin {
+    left: 1550px;
+}
+
+#github {
+    left: 1500px;
 }
