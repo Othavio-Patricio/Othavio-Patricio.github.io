@@ -5,6 +5,7 @@ body{
 }
 
 #header{
+    content: "";
     color: #E0E0E0;
     background-color: #E0E0E0;
     position: fixed;
@@ -51,10 +52,6 @@ body{
     margin-top: -36px;
 }
 
-.center {
-    
-}
-
 .primeironome{
     font-weight: bolder;
 }
@@ -62,15 +59,25 @@ body{
 #othavio {
     position: absolute;
     top: 240px;
-    left: 39.9%;
+    left: 50%;
+    transform: translate(-50%);
     width: 320px;
+    z-index: 89;
 }
 
 .description{
+    position: absolute;
     text-align: center;
     font-size: 25px;
     font-weight: 300;
-
+    background-color: #E0E0E0;
+    width: 300px;
+    padding: 15px;
+    border: #EBEBEB solid 10px;
+    top: 550px;
+    left: 50%;
+    transform: translate(-50%);
+    z-index: 90;
 }
 
 .links {
@@ -84,5 +91,5 @@ body{
 
 .texto-geral {
     position: absolute;
-    top: 570px;
+    top: 900px;
 }
