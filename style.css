@@ -4,8 +4,11 @@ body{
     color: #2D3139;
 }
 
+header, div, footer {
+    display: block;
+}
+
 #header{
-    content: "";
     color: #E0E0E0;
     background-color: #E0E0E0;
     position: fixed;
@@ -16,7 +19,7 @@ body{
     z-index: 98;
 }
 
-.othavio, .othavio2 {
+.othavio, .othavio2, .othavio3 {
     font-family: 'Montserrat', sans-serif;
     color: #2D3139;
     font-weight: 500;
@@ -26,7 +29,6 @@ body{
 }
 
 .othavio2 {
-    color: #2D3139;
     position: fixed;
     font-size: 30px;
     border: 2px solid #2D3139;
@@ -134,4 +136,27 @@ body{
     position: absolute;
     font-size: 20px;
     top: 800px;
+}
+
+#footer {
+    color: #E0E0E0;
+    background-color: #E0E0E0;
+    position: absolute;
+    top: 2000px;
+    margin: 0px -500px -100px -20px;
+    padding-left: 100%;
+    padding-top: 185px;
+    z-index: 98;
+}
+
+.othavio3 {
+    position: absolute;
+    font-size: 45px;
+    border: 3px solid #2D3139;
+    width: 240px;
+    margin-bottom: 300px;
+    padding: 14px;
+    z-index: 100;
+    left: 10%;
+    top: 1985px;
 }
