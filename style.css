@@ -33,7 +33,7 @@ body{
     width: 150px;
     padding: 8px;
     z-index: 99;
-    margin-top: -35px;
+    margin-top: 5px;
 }
 
 #othavio-link, #othavio-link:visited, #othavio-link:active  {
@@ -49,7 +49,7 @@ body{
     width: 280px;
     padding: 15px;
     z-index: 100;
-    margin-top: -36px;
+    margin-top: 4px;
 }
 
 .primeironome{
@@ -65,7 +65,7 @@ body{
     z-index: 89;
 }
 
-.description{
+.boxes{
     position: absolute;
     text-align: center;
     font-size: 25px;
@@ -74,10 +74,19 @@ body{
     width: 300px;
     padding: 15px;
     border: #EBEBEB solid 10px;
+    z-index: 90;
+}
+
+.description{
     top: 550px;
     left: 50%;
     transform: translate(-50%);
-    z-index: 90;
+}
+
+.usa-experience {
+    top: 1000px;
+    left: 50%;
+    transform: translate(-50%);
 }
 
 .links {
@@ -86,10 +95,7 @@ body{
 }
 
 .list {
-    font-size: 20px;
-}
-
-.texto-geral {
     position: absolute;
-    top: 900px;
+    font-size: 20px;
+    top: 800px;
 }
