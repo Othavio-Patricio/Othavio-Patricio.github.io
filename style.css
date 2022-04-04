@@ -67,7 +67,7 @@ header, div, footer {
     z-index: 89;
 }
 
-.boxes{
+.boxes, .list {
     position: absolute;
     text-align: center;
     font-size: 25px;
@@ -77,17 +77,16 @@ header, div, footer {
     padding: 15px;
     border: #EBEBEB solid 10px;
     z-index: 90;
-    transform: translate(-50%);
 }
 
 .description{
     top: 350px;
-    left: 65%;
+    left: 54%;
 }
 
 .usa-experience {
     top: 1420px;
-    left: 35%;
+    left: 25%;
 }
 
 #othavio-neve {
@@ -135,6 +134,31 @@ header, div, footer {
     position: absolute;
     font-size: 20px;
     top: 800px;
+    width: 250px;
+    height: 170px;
+}
+
+.list-title {
+    font-size: 27px;
+    font-weight: 400;
+}
+
+li {
+    text-align: left;
+    padding-left: 20px;
+    list-style: none;
+}
+
+.now {
+    left: 300px;
+}
+
+.development {
+    left: 800px;
+}
+
+.future {
+    left: 1300px;
 }
 
 #footer {
@@ -196,4 +220,28 @@ header, div, footer {
 
 #github {
     left: 1500px;
+}
+
+section{
+    display: block;
+}
+
+hr {
+    position: absolute;
+    width: 0%;
+    color: #EBEBEB;
+    background-color: #EBEBEB;
+    z-index: 0;
+}
+
+#list-of-skills{
+    top: 600px;
+}
+
+#experiences {
+    top: 1050px;
+}
+
+#works {
+    top: 2000px;
 }
