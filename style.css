@@ -1,22 +1,16 @@
+/* General */
 body{
     font-family: 'Oswald', sans-serif;
     background-color: #EBEBEB;
     color: #2D3139;
 }
 
-header, div, footer {
+header, footer, section {
     display: block;
 }
 
-#header{
-    color: #E0E0E0;
-    background-color: #E0E0E0;
-    position: fixed;
-    margin: -100px -500px 0 -20px;
-    padding-left: 100%;
-    padding-right: 100%;
-    padding-bottom: 185px;
-    z-index: 98;
+img {
+    position: absolute;
 }
 
 .othavio, .othavio2, .othavio3 {
@@ -28,6 +22,57 @@ header, div, footer {
     transform: translate(-50%);
 }
 
+.primeironome{
+    font-weight: bolder;
+}
+
+.black-links, .black-links:active, .black-links:visited { 
+    color: #2D3139;
+    text-decoration: none;
+}
+
+.links, .links:active, .links:visited {
+    color: #8a4abf;
+    text-decoration: none;
+}
+
+.boxes, .list, .work-txt{
+    position: absolute;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 300;
+    background-color: #E0E0E0;
+    width: 300px;
+    padding: 15px;
+    border: #EBEBEB solid 10px;
+    z-index: 90;
+}
+
+/* Align of 3 boxes column */
+.now, #work1-txt {
+    left: 300px;
+}
+
+.development, #work2-txt {
+    left: 800px;
+}
+
+.future, #work3-txt {
+    left: 1300px;
+}
+
+/* Starts header */
+#header{
+    color: #E0E0E0;
+    background-color: #E0E0E0;
+    position: fixed;
+    margin: -100px -500px 0 -20px;
+    padding-left: 100%;
+    padding-right: 100%;
+    padding-bottom: 185px;
+    z-index: 98;
+}
+
 .othavio2 {
     position: fixed;
     font-size: 30px;
@@ -36,11 +81,6 @@ header, div, footer {
     padding: 8px;
     z-index: 99;
     margin-top: 5px;
-}
-
-#othavio-link, #othavio-link:visited, #othavio-link:active {
-    color: #2D3139;
-    text-decoration: none;
 }
 
 .othavio {
@@ -54,12 +94,8 @@ header, div, footer {
     margin-top: 4px;
 }
 
-.primeironome{
-    font-weight: bolder;
-}
-
+/* Here starts ABOUT ME */
 #othavio-perfil {
-    position: absolute;
     top: 240px;
     left: 50%;
     transform: translate(-50%);
@@ -67,73 +103,16 @@ header, div, footer {
     z-index: 89;
 }
 
-.boxes, .list {
-    position: absolute;
-    text-align: center;
-    font-size: 25px;
-    font-weight: 300;
-    background-color: #E0E0E0;
-    width: 300px;
-    padding: 15px;
-    border: #EBEBEB solid 10px;
-    z-index: 90;
-}
-
 .description{
     top: 350px;
     left: 54%;
 }
 
-.usa-experience {
-    top: 1420px;
-    left: 25%;
-}
-
-#othavio-neve {
-    position: absolute;
-    top: 1250px;
-    width: 1250px;
-    left: 67.2%;
-    transform: translate(-50%);
-    z-index: 85;
-}
-
-#othavio-anju-arco {
-    position: absolute;
-    top: 1630px;
-    width: 210px;
-    left: 79%;
-    transform: translate(-50%);
-    z-index: 87;
-}
-
-#othavio-frango {
-    position: absolute;
-    top: 1565px;
-    width: 200px;
-    left: 89%;
-    transform: translate(-50%);
-    z-index: 89;
-}
-
-#othavio-bowl {
-    position: absolute;
-    top: 1300px;
-    width: 230px;
-    left: 82%;
-    transform: translate(-50%);
-    z-index: 88;
-}
-
-.links, .links:active, .links:visited {
-    color: #8a4abf;
-    text-decoration: none;
-}
-
+/* Here starts SKILLS */
 .list {
     position: absolute;
     font-size: 20px;
-    top: 800px;
+    top: 900px;
     width: 250px;
     height: 170px;
 }
@@ -149,23 +128,77 @@ li {
     list-style: none;
 }
 
-.now {
-    left: 300px;
+/* Here starts EXPERIENCE */
+.usa-experience {
+    top: 1420px;
+    left: 25%;
 }
 
-.development {
-    left: 800px;
+#othavio-neve {
+    top: 1250px;
+    width: 1250px;
+    left: 32%;
+    z-index: 85;
 }
 
-.future {
-    left: 1300px;
+#othavio-anju-arco {
+    top: 1630px;
+    width: 210px;
+    left: 73%;
+    z-index: 87;
 }
+
+#othavio-frango {
+    top: 1565px;
+    width: 200px;
+    left: 83%;
+    z-index: 89;
+}
+
+#othavio-bowl {
+    top: 1300px;
+    width: 230px;
+    left: 76%;
+    z-index: 88;
+}
+
+/* Here starts the latest works section */
+
+.work-txt {
+    position: absolute;
+    top: 2050px;
+    font-size: 27px;
+    font-weight: 400;
+    text-align: center;
+    width: 290px;
+    height: 590px;
+}
+
+.work-img {
+    top: 2150px;
+    width: 265px;
+    z-index: 91;
+}
+
+#work1-img {
+    left: 337px;
+}
+
+#work2-img {
+    left: 837px;
+}
+
+#work3-img {
+    left: 1337px;
+}
+
+/* Here starts the footer */
 
 #footer {
     color: #E0E0E0;
     background-color: #E0E0E0;
     position: absolute;
-    top: 2000px;
+    top: 2800px;
     margin: 0;
     padding-left: 99.4%;
     padding-top: 185px;
@@ -182,28 +215,22 @@ li {
     z-index: 100;
     left: 2%;
     transform: translate(0);
-    top: 1985px;
+    top: 2785px;
 }
 
 .footer-text {
     text-transform: uppercase;
     font-size: 22px;
     position: absolute;
-    top: 2010px;
+    top: 2810px;
     z-index: 100;
     left: 500px;
 }
 
-.footer-links, .footer-links:visited {
-    color: #2D3139;
-    text-decoration: none;
-}
-
-#twitter, #instagram, #linkedin, #github {
-    position: absolute;
+.logo {
     z-index: 99;
     width: 30px;
-    top: 2100px;
+    top: 2890px;
 }
 
 #twitter {
@@ -222,9 +249,7 @@ li {
     left: 1500px;
 }
 
-section{
-    display: block;
-}
+/* Below here only hr appointments */
 
 hr {
     position: absolute;
@@ -243,5 +268,5 @@ hr {
 }
 
 #works {
-    top: 2000px;
+    top: 1900px;
 }
