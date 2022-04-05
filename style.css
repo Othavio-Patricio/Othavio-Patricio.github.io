@@ -1,8 +1,8 @@
 /* General */
 body{
-    font-family: 'Oswald', sans-serif;
     background-color: #EBEBEB;
     color: #2D3139;
+    font-family: 'Oswald', sans-serif;
 }
 
 header, footer, section {
@@ -14,11 +14,11 @@ img {
 }
 
 .othavio, .othavio2, .othavio3 {
-    font-family: 'Montserrat', sans-serif;
     color: #2D3139;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 500;
-    text-align: center;
     left: 50%;
+    text-align: center;
     transform: translate(-50%);
 }
 
@@ -37,14 +37,14 @@ img {
 }
 
 .boxes, .list, .work-txt{
-    position: absolute;
-    text-align: center;
+    background-color: #E0E0E0;
+    border: #EBEBEB solid 10px;
     font-size: 25px;
     font-weight: 300;
-    background-color: #E0E0E0;
-    width: 300px;
     padding: 15px;
-    border: #EBEBEB solid 10px;
+    position: absolute;
+    text-align: center;
+    width: 300px;
     z-index: 90;
 }
 
@@ -63,58 +63,58 @@ img {
 
 /* Starts header */
 #header{
-    color: #E0E0E0;
     background-color: #E0E0E0;
-    position: fixed;
+    color: #E0E0E0;
     margin: -100px -500px 0 -20px;
+    padding-bottom: 185px;
     padding-left: 100%;
     padding-right: 100%;
-    padding-bottom: 185px;
+    position: fixed;
     z-index: 98;
 }
 
 .othavio2 {
-    position: fixed;
-    font-size: 30px;
     border: 2px solid #2D3139;
-    width: 150px;
-    padding: 8px;
-    z-index: 99;
+    font-size: 30px;
     margin-top: 5px;
+    padding: 8px;
+    position: fixed;
+    width: 150px;
+    z-index: 99;
 }
 
 .othavio {
-    position: absolute;
     background-color: #E0E0E0;
-    font-size: 50px;
     border: 3px solid #2D3139;
-    width: 280px;
-    padding: 15px;
-    z-index: 100;
+    font-size: 50px;
     margin-top: 4px;
+    padding: 15px;
+    position: absolute;
+    width: 280px;
+    z-index: 100;
 }
 
 /* Here starts ABOUT ME */
 #othavio-perfil {
-    top: 240px;
     left: 50%;
+    top: 240px;
     transform: translate(-50%);
     width: 320px;
     z-index: 89;
 }
 
 .description{
-    top: 350px;
     left: 54%;
+    top: 350px;
 }
 
 /* Here starts SKILLS */
 .list {
-    position: absolute;
     font-size: 20px;
+    height: 170px;
+    position: absolute;
     top: 900px;
     width: 250px;
-    height: 170px;
 }
 
 .list-title {
@@ -123,55 +123,55 @@ img {
 }
 
 li {
-    text-align: left;
-    padding-left: 20px;
     list-style: none;
+    padding-left: 20px;
+    text-align: left;
 }
 
 /* Here starts EXPERIENCE */
 .usa-experience {
-    top: 1420px;
     left: 25%;
+    top: 1420px;
 }
 
 #othavio-neve {
+    left: 32%;
     top: 1250px;
     width: 1250px;
-    left: 32%;
     z-index: 85;
 }
 
 #othavio-anju-arco {
+    left: 73%;
     top: 1630px;
     width: 210px;
-    left: 73%;
     z-index: 87;
 }
 
 #othavio-frango {
+    left: 83%;
     top: 1565px;
     width: 200px;
-    left: 83%;
     z-index: 89;
 }
 
 #othavio-bowl {
+    left: 76%;
     top: 1300px;
     width: 230px;
-    left: 76%;
     z-index: 88;
 }
 
 /* Here starts the latest works section */
 
 .work-txt {
-    position: absolute;
-    top: 2050px;
     font-size: 27px;
     font-weight: 400;
-    text-align: center;
-    width: 290px;
     height: 590px;
+    position: absolute;
+    text-align: center;
+    top: 2050px;
+    width: 290px;
 }
 
 .work-img {
@@ -195,58 +195,58 @@ li {
 /* Here starts the footer */
 
 #footer {
-    color: #E0E0E0;
     background-color: #E0E0E0;
-    position: absolute;
-    top: 2800px;
+    color: #E0E0E0;
     margin: 0;
     padding-left: 99.4%;
     padding-top: 185px;
+    position: absolute;
+    top: 2800px;
     z-index: 98;
 }
 
 .othavio3 {
-    position: absolute;
-    font-size: 45px;
     border: 3px solid #2D3139;
-    width: 240px;
+    font-size: 45px;
+    left: 2%;
     margin-bottom: 300px;
     padding: 14px;
-    z-index: 100;
-    left: 2%;
-    transform: translate(0);
+    position: absolute;
     top: 2785px;
+    transform: translate(0);
+    width: 240px;
+    z-index: 100;
 }
 
 .footer-text {
-    text-transform: uppercase;
     font-size: 22px;
+    left: 500px;
     position: absolute;
+    text-transform: uppercase;
     top: 2810px;
     z-index: 100;
-    left: 500px;
 }
 
 .logo {
-    z-index: 99;
-    width: 30px;
     top: 2890px;
-}
-
-#twitter {
-    left: 1600px;
-}
-
-#instagram {
-    left: 1650px;
-}
-
-#linkedin {
-    left: 1550px;
+    width: 30px;
+    z-index: 99;
 }
 
 #github {
-    left: 1500px;
+    left: 1600px;
+}
+
+#linkedin {
+    left: 1650px;
+}
+
+#twitter {
+    left: 1700px;
+}
+
+#instagram {
+    left: 1750px;
 }
 
 /* Below here only hr appointments */
