@@ -13,7 +13,7 @@ img {
     position: absolute;
 }
 
-.othavio, .othavio2, .othavio3 {
+#header1-logo, #header2-logo, #footer-logo {
     color: #2D3139;
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
@@ -22,7 +22,7 @@ img {
     transform: translate(-50%);
 }
 
-.primeironome{
+.first-name{
     font-weight: bolder;
 }
 
@@ -36,7 +36,7 @@ img {
     text-decoration: none;
 }
 
-.boxes, .list, .work-txt{
+.boxes {
     background-color: #E0E0E0;
     border: #EBEBEB solid 10px;
     font-size: 25px;
@@ -48,21 +48,32 @@ img {
     z-index: 90;
 }
 
+.main-images {
+    width: 1250px;
+    z-index: 85;
+}
+
 /* Align of 3 boxes column */
-.now, #work1-txt {
-    left: 300px;
+
+.list, .work-txt, .work-img {
+    transform: translate(-50%);
 }
 
-.development, #work2-txt {
-    left: 800px;
+#now, #work1-txt, #work1-img {
+    left: 25%;
 }
 
-.future, #work3-txt {
-    left: 1300px;
+#development, #work2-txt, #work2-img {
+    left: 50%;
+}
+
+#future, #work3-txt, #work3-img {
+    left: 75%;
 }
 
 /* Starts header */
-#header{
+
+#header-background {
     background-color: #E0E0E0;
     color: #E0E0E0;
     margin: -100px -500px 0 -20px;
@@ -73,17 +84,7 @@ img {
     z-index: 98;
 }
 
-.othavio2 {
-    border: 2px solid #2D3139;
-    font-size: 30px;
-    margin-top: 5px;
-    padding: 8px;
-    position: fixed;
-    width: 150px;
-    z-index: 99;
-}
-
-.othavio {
+#header1-logo {
     background-color: #E0E0E0;
     border: 3px solid #2D3139;
     font-size: 50px;
@@ -94,18 +95,42 @@ img {
     z-index: 100;
 }
 
-/* Here starts ABOUT ME */
-#othavio-perfil {
-    left: 50%;
-    top: 240px;
-    transform: translate(-50%);
-    width: 320px;
-    z-index: 89;
+#header1-logo:hover {
+    font-size: 48px;
+    margin-top: 6px;
+    padding: 13px;
+    transition: 0.1s;
+    width: 274px;
 }
 
-.description{
-    left: 54%;
-    top: 350px;
+#header2-logo {
+    border: 2px solid #2D3139;
+    font-size: 30px;
+    margin-top: 6px;
+    padding: 8px;
+    position: fixed;
+    width: 150px;
+    z-index: 99;
+}
+
+#header2-logo:hover {
+    font-size: 29px;
+    margin-top: 7px;
+    padding: 7px;
+    transition: 0.1s;
+    width: 146px;
+}
+
+/* Here starts ABOUT ME */
+#othavio-profile {
+    left: 0%;
+    top: 240px;
+    width: 350px;
+}
+
+#description{
+    right: 25%;
+    top: 410px;
 }
 
 /* Here starts SKILLS */
@@ -129,26 +154,25 @@ li {
 }
 
 /* Here starts EXPERIENCE */
-.usa-experience {
+#usa-experience {
     left: 25%;
     top: 1420px;
 }
 
-#othavio-neve {
-    left: 32%;
+#othavio-snow {
+    right: 0%;
     top: 1250px;
-    width: 1250px;
-    z-index: 85;
+
 }
 
-#othavio-anju-arco {
+#othavio-anju-arch {
     left: 73%;
     top: 1630px;
     width: 210px;
     z-index: 87;
 }
 
-#othavio-frango {
+#othavio-chicken {
     left: 83%;
     top: 1565px;
     width: 200px;
@@ -167,11 +191,18 @@ li {
 .work-txt {
     font-size: 27px;
     font-weight: 400;
-    height: 590px;
+    height: 595px;
     position: absolute;
     text-align: center;
-    top: 2050px;
-    width: 290px;
+    top: 2074px;
+    width: 291px;
+}
+
+.work-txt:hover {
+    transition: 0.2s;
+    width: 307px;
+    height: 611px;
+    top: 2066px;
 }
 
 .work-img {
@@ -180,21 +211,15 @@ li {
     z-index: 91;
 }
 
-#work1-img {
-    left: 337px;
-}
-
-#work2-img {
-    left: 837px;
-}
-
-#work3-img {
-    left: 1337px;
+.work-img:hover {
+    transition: 0.2s;
+    width: 273px;
+    top: 2142px;
 }
 
 /* Here starts the footer */
 
-#footer {
+#footer-background {
     background-color: #E0E0E0;
     color: #E0E0E0;
     margin: 0;
@@ -205,7 +230,7 @@ li {
     z-index: 98;
 }
 
-.othavio3 {
+#footer-logo {
     border: 3px solid #2D3139;
     font-size: 45px;
     left: 2%;
@@ -218,13 +243,41 @@ li {
     z-index: 100;
 }
 
+#footer-logo:hover {
+    font-size: 42px;
+    padding: 8px;
+    top: 2795px;
+    left: 2.3%;
+    width: 230px;
+}
+
 .footer-text {
     font-size: 22px;
     left: 500px;
     position: absolute;
     text-transform: uppercase;
-    top: 2810px;
     z-index: 100;
+}
+
+#footer-about-me {
+    top: 2835px;
+}
+
+#footer-skills {
+    top: 2870px;
+}
+
+#footer-experiences {
+    top: 2905px;
+}
+
+#footer-works {
+    top: 2940px;
+}
+
+footer nav div:hover {
+    font-size: 24px;
+    transition: 0.1s;
 }
 
 .logo {
@@ -247,6 +300,11 @@ li {
 
 #instagram {
     left: 1750px;
+}
+
+.logo:hover {
+    transition: 0.1s;
+    width: 35px;
 }
 
 /* Below here only hr appointments */
