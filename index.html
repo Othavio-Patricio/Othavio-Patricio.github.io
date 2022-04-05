@@ -14,26 +14,26 @@
 <body>
     <header>
         <a id="top"></a>
-        <div><p id="header">.</p></div>
+        <div id="header-background">.</div>
         <div class="center">
-            <p class="othavio"><span class="primeironome">OTHAVIO</span><br>PATRICIO</p>
-            <p class="othavio2"><span class="primeironome"><a href="#top" class="black-links">OTHAVIO</span><br>PATRICIO</p></a>
+            <h1 id="header1-logo"><span class="first-name">OTHAVIO</span><br>PATRICIO</h1>
+            <h2 id="header2-logo"><span class="first-name"><a href="#top" class="black-links">OTHAVIO</span><br>PATRICIO</h2></a>
         </div>  
     </header>
     
 <!-- Finish of header and beginning of About me -->
-
-    <div>  
-        <img src="images/foto-othavio.jpeg" alt="Othavio's picture smilling and using" id="othavio-perfil">
-        <p class="description boxes">I am Brazilian living in Rio de Janeiro, lover of video games and <a href="https://lichess.org/@/OthavioPatricio" target="_blank" class="links">chess</a> enjoyer.<br>Developing new skills and growing my portfolio is my current goal.<br>Former Mechanical Engineering student to full-stack developer at learning, Studying at <a href="https://www.betrybe.com/" class="links">Trybe</a>.</p>
-    </div>
+ 
+    <section>
+        <img src="images/foto-othavio.jpeg" alt="Othavio's picture smilling and using" class="main-images" id="othavio-profile">
+        <article class="boxes" id="description">I am Brazilian living in Rio de Janeiro, lover of video games and <a href="https://lichess.org/@/OthavioPatricio" target="_blank" class="links">chess</a> enjoyer.<br>Developing new skills and growing my portfolio is my current goal.<br>Former Mechanical Engineering student to full-stack developer at learning, Studying at <a href="https://www.betrybe.com/" class="links">Trybe</a>.</article>
+    </section>
     
     <!-- Finish of About me section and beginning of Main Skills -->   
-    <hr id="list-of-skills">
 
+    <hr id="list-of-skills">
     <section>
         <div>
-            <ul class="list now"><span class="list-title">Full-blown skills</span>
+            <ul class="list boxes" id="now"><span class="list-title">Full-blown skills</span>
                 <li><em>Advanced</em> English</li>
                 <li><em>Native</em> Portuguese</li>
                 <li><em>Basic</em> Spanish</li>
@@ -41,14 +41,14 @@
             </ul>
         </div>
         <div>
-            <ul class="list development"><span class="list-title">In development</span>
+            <ul class="list boxes" id="development"><span class="list-title">In development</span>
                 <li>HTML 5</li>
                 <li>CSS 3</li>
                 <li>JavaScript</li>
             </ul>
         </div>
         <div>
-            <ul class="list future"><span class="list-title">For the future</span>
+            <ul class="list boxes" id="future"><span class="list-title">Near future</span>
                 <li>React</li>
                 <li>Python</li>
                 <li>Node.js</li>
@@ -58,51 +58,51 @@
     </section>
 
     <!-- Finish of Main Skills section and beginning of Experiences -->
+    
     <hr id="experiences">
-   
     <section>
-        <div>
-            <img src="images/othavio-neve3.jpeg" alt="Othavio's picture in the middle of lots of snow" id="othavio-neve">
-            <img src="images/othavio-anju-arco2.jpeg" alt="Othavio and Anna Júlia below an arch at snow" id="othavio-anju-arco">
-            <img src="images/othavio-frango2.jpeg" alt="Othavio eating a fried chicken with a scared face" id="othavio-frango">
-            <img src="images/othavio-anju-boliche.jpeg" alt="Othavio and Anna Júlia at the bowling" id="othavio-bowl">
-            <p class="usa-experience boxes">In 2017/2018 with main goal of improve my English I spent a few months working in the USA as housekeeper at <a href="https://www.linkedin.com/company/boyne-highlands-resort/" target="_blank" class="links">The Highlands at Harbor Springs</a> where I received a recommendation letter for leadership and hard work.<br>It was a great journey that sure worth it.</p>
-        </div>
+        <article class="boxes" id="usa-experience">In 2017/2018 with main goal of improve my English I spent a few months working in the USA as housekeeper at <a href="https://www.linkedin.com/company/boyne-highlands-resort/" target="_blank" class="links">The Highlands at Harbor Springs</a> where I received a recommendation letter for leadership and hard work.<br>It was a great journey that sure worth it.</article>
+        <img src="images/othavio-neve3.jpeg" alt="Othavio's picture in the middle of lots of snow" class="main-images" id="othavio-snow">
+        <img src="images/othavio-anju-arco2.jpeg" alt="Othavio and Anna Júlia below an arch at snow" id="othavio-anju-arch">
+        <img src="images/othavio-frango2.jpeg" alt="Othavio eating a fried chicken with a scared face" id="othavio-chicken">
+        <img src="images/othavio-anju-boliche.jpeg" alt="Othavio and Anna Júlia at the bowling" id="othavio-bowl">
     </section>
 
     <!-- Finish of Experiences section and beginning of works -->
+    
     <hr id="works">
-
     <section>
-        <div>
-            <p class="work-txt" id="work1-txt"><a href="https://othavio-patricio.github.io/" target="_blank" class="black-links">Portfolio</a></p>
-            <a href="https://othavio-patricio.github.io/" target="_blank"><img src="images/portifoio-img.png" alt="Picture of Othavio's portfolio HTML code" id="work1-img" class="work-img"></a>
-        </div>
-        <div>
-            <p class="work-txt" id="work2-txt"><a href="" target="_blank" class="black-links">To be done</a></p>
-            <a href="" target="_blank"><img src="" alt="" id="work2-img" class="work-img"></a>
-        </div>
-        <div>
-            <p class="work-txt" id="work3-txt"><a href="" target="_blank" class="black-links">To be done</a></p>
-            <a href="" target="_blank"><img src="" alt="" id="work3-img" class="work-img"></a>
-        </div>
+        <nav>
+            <div>
+                <nav class="work-txt boxes" id="work1-txt"><a href="https://othavio-patricio.github.io/" target="_blank" class="black-links">Portfolio</a></nav>
+                <a href="https://othavio-patricio.github.io/" target="_blank"><img src="images/portifoio-img.png" alt="Picture of Othavio's portfolio HTML code" id="work1-img" class="work-img"></a>
+            </div>
+            <div>
+                <nav class="work-txt boxes" id="work2-txt"><a href="" target="_blank" class="black-links">To be done</a></nav>
+                <a href="" target="_blank"><img src="" alt="" id="work2-img" class="work-img"></a>
+            </div>
+            <div>
+                <nav class="work-txt boxes" id="work3-txt"><a href="" target="_blank" class="black-links">To be done</a></nav>
+                <a href="" target="_blank"><img src="" alt="" id="work3-img" class="work-img"></a>
+            </div>
+        </nav>
     </section>
 
     <hr>
+
     <footer>
-        <div><p id="footer">.</p></div>
-        <div>
-          <p class="othavio3"><span class="primeironome">OTHAVIO</span><br>PATRICIO</p>
-        </div>
-        <div>
-          <p class="footer-text"><a href="#top" class="black-links">About me</a><br><a href="#list-of-skills" class="black-links">Main skills</a><br><a href="#experiences" class="black-links">Experiences</a><br><a href="#works" class="black-links">Latest works</a></p>
-        </div>
-        <div>
+        <div id="footer-background">.</div>
+        <nav>
+            <h3 id="footer-logo"><span class="first-name">OTHAVIO</span><br>PATRICIO</h3>
+            <div class="footer-text" id="footer-about-me"><a href="#top" class="black-links">About me</a></div>
+            <div class="footer-text" id="footer-skills"><a href="#list-of-skills" class="black-links">Main skills</a></div>
+            <div class="footer-text" id="footer-experiences"><a href="#experiences" class="black-links">Experiences</a></div>
+            <div class="footer-text" id="footer-works"><a href="#works" class="black-links">Latest works</a></div>
             <a href="https://twitter.com/othaviopatricio" target="_blank"><img src="images/twitter-logo.png" alt="Twitter logo" id="twitter" class="logo"></a>
             <a href="https://www.linkedin.com/in/othavio-patricio/" target="_blank"><img src="images/linkedin-logo.png" alt="Linkedin logo" id="linkedin" class="logo"></a>
             <a href="https://github.com/Othavio-Patricio" target="_blank"><img src="images/github-logo.png" alt="GitHUb logo" id="github" class="logo"></a>
             <a href="https://www.instagram.com/othaviopatricio" target="_blank"><img src="images/instagram-logo.png" alt="Instagram logo" id="instagram" class="logo"></a>
-        </div>
+        </nav>
     </footer>
 </body>
 </html>
