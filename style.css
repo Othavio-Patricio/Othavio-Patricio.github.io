@@ -1,5 +1,5 @@
 /* General */
-body{
+body {
     background-color: #EBEBEB;
     color: #2D3139;
     font-family: 'Oswald', sans-serif;
@@ -13,12 +13,12 @@ img {
     color: #2D3139;
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
-    left: 50%;
+    left: 50vw;
     text-align: center;
     transform: translate(-50%);
 }
 
-.first-name{
+.first-name {
     font-weight: bolder;
 }
 
@@ -34,24 +34,24 @@ img {
 
 .boxes {
     background-color: #E0E0E0;
-    border: #EBEBEB solid 10px;
-    font-size: 25px;
+    border: #EBEBEB solid 0.55vmax;
+    font-size: 1.30vmax;
     font-weight: 300;
-    padding: 15px;
+    padding: 0.775vmax;
     position: absolute;
     text-align: center;
-    width: 300px;
+    width: 15.75vmax;
     z-index: 90;
 }
 
 .main-images {
-    width: 1250px;
+    width: 65vw;
     z-index: 85;
 }
 
 .work-txt, .list {
     border: none;
-    box-shadow: 5px 5px 20px #2D3139;
+    box-shadow: 0.1vmax 0.1vmax 0.4vmax #2D3139;
 }
 
 /* Align of 3 boxes column */
@@ -61,15 +61,15 @@ img {
 }
 
 #now, #work1-txt, #work1-img {
-    left: 25%;
+    left: 25vw;
 }
 
 #development, #work2-txt, #work2-img {
-    left: 50%;
+    left: 50vw;
 }
 
 #future, #work3-txt, #work3-img {
-    left: 75%;
+    left: 75vw;
 }
 
 /* Starts header */
@@ -77,8 +77,8 @@ img {
 #header-background {
     background-color: #E0E0E0;
     color: #E0E0E0;
-    margin: -100px -500px 0 -20px;
-    padding-bottom: 185px;
+    margin: -5vmax -10vmax 0 -5vmax;
+    padding-bottom: 9.45vmax;
     padding-left: 100%;
     padding-right: 100%;
     position: fixed;
@@ -87,64 +87,80 @@ img {
 
 #header1-logo {
     background-color: #E0E0E0;
-    border: 3px solid #2D3139;
-    font-size: 50px;
-    margin-top: 4px;
-    padding: 15px;
+    border: 0.2vmax solid #2D3139;
+    font-size: 2.6vmax;
+    margin-top: 0.22vmax;
+    padding: 0.77vmax;
     position: absolute;
-    width: 280px;
+    width: 14.65vmax;
     z-index: 100;
 }
 
 #header1-logo:hover {
-    font-size: 48px;
-    margin-top: 6px;
-    padding: 13px;
-    transition: 0.1s;
-    width: 274px;
+    font-size: 2.4vmax;
+    margin-top: 0.4vmax;
+    padding: 0.62vmax;
+    transition: 0.13s;
+    width: 14vmax;
 }
 
 #header2-logo {
-    border: 2px solid #2D3139;
-    font-size: 30px;
-    margin-top: 6px;
-    padding: 8px;
+    border: 0.15vmax solid #2D3139;
+    font-size: 1.58vmax;
+    margin-top: 0.4vmax;
+    padding: 0.4vmax;
     position: fixed;
-    width: 150px;
+    width: 8vmax;
     z-index: 99;
 }
 
 #header2-logo:hover {
-    font-size: 29px;
-    margin-top: 7px;
+    font-size: 1.38vmax;
+    margin-top: 0.58vmax;
     padding: 7px;
-    transition: 0.1s;
-    width: 146px;
+    transition: 0.12s;
+    width: 7vmax;
 }
 
 /* Here starts ABOUT ME */
+
+#about-me-section {
+    position: absolute;
+    margin-left: -2%;
+    width: 100%;
+    margin-top: 12.1vmax;
+    height: 70vh;
+}
+
 #othavio-profile {
-    left: 0%;
-    top: 240px;
-    width: 350px;
+    width: 20vmax;
 }
 
 #description{
-    right: 25%;
-    top: 410px;
+    right: 23.2vw;
+    top: 17.2vh;
 }
 
 /* Here starts SKILLS */
+
 .list {
-    font-size: 20px;
-    height: 170px;
+    font-size: 1.07vmax;
+    height: 8.8vmax;
     position: absolute;
-    top: 900px;
-    width: 250px;
+    top: 90vh;
+    width: 12.8vmax;
+}
+
+.list:hover {
+    transition: 0.2s;
+    width: 13.5vmax;
+    height: 9.2vmax;
+    top: 88.3vh;
+    font-size: 1.2vmax;
 }
 
 .list-title {
-    font-size: 27px;
+    font-size: 1.38vmax;
     font-weight: 400;
 }
 
@@ -154,76 +170,46 @@ section div ul li {
     text-align: left;
 }
 
-.list:hover {
-    transition: 0.2s;
-    width: 266px;
-    height: 186px;
-    top: 908px;
-    font-size: 24px;
-}
-
 /* Here starts EXPERIENCE */
 #usa-experience {
-    left: 25%;
-    top: 1420px;
+    left: 24.8vw;
+    top: 142.7vh;
 }
 
 #othavio-snow {
     right: 0%;
-    top: 1250px;
-
-}
-
-#othavio-anju-arch {
-    left: 73%;
-    top: 1630px;
-    width: 210px;
-    z-index: 87;
-}
-
-#othavio-chicken {
-    left: 83%;
-    top: 1565px;
-    width: 200px;
-    z-index: 89;
-}
-
-#othavio-bowl {
-    left: 76%;
-    top: 1300px;
-    width: 230px;
-    z-index: 88;
+    top: 125.5vh;
 }
 
 /* Here starts the latest works section */
 
 .work-txt {
-    font-size: 27px;
+    font-size: 1.45vmax;
     font-weight: 400;
-    height: 595px;
+    height: 60.5vh;
     position: absolute;
     text-align: center;
-    top: 2074px;
-    width: 291px;
+    top: 208.8vh;
+    width: 15.3vw;
 }
 
 .work-txt:hover {
     transition: 0.2s;
-    width: 307px;
-    height: 611px;
-    top: 2066px;
+    width: 16vw;
+    height: 62vh;
+    top: 207.5vh;
 }
 
 .work-img {
-    top: 2150px;
-    width: 265px;
+    top: 215.8vh;
+    width: 13.85vw;
     z-index: 91;
 }
 
 .work-img:hover {
     transition: 0.2s;
-    width: 273px;
-    top: 2142px;
+    width: 14.2vw;
+    top: 215vh;
 }
 
 /* Here starts the footer */
@@ -233,88 +219,88 @@ section div ul li {
     color: #E0E0E0;
     margin: 0;
     padding-left: 99.4%;
-    padding-top: 185px;
+    padding-top: 17.5vh;
     position: absolute;
-    top: 2800px;
+    top: 281.5vh;
     z-index: 98;
 }
 
 #footer-logo {
-    border: 3px solid #2D3139;
-    font-size: 45px;
-    left: 2%;
+    border: 0.2vmax solid #2D3139;
+    font-size: 2.2vmax;
+    left: 2vw;
     margin-bottom: 300px;
-    padding: 14px;
+    padding: 0.6vmax;
     position: absolute;
-    top: 2785px;
+    top: 280.8vh;
     transform: translate(0);
-    width: 240px;
+    width: 12.5vmax;
     z-index: 100;
 }
 
 #footer-logo:hover {
-    font-size: 42px;
-    padding: 8px;
-    top: 2795px;
-    left: 2.3%;
-    width: 230px;
-    transition: 0.1s;
+    font-size: 2vmax;
+    padding: 0.4vmax;
+    top: 282vh;
+    left: 2.3vw;
+    width: 11.4vmax;
+    transition: 0.15s;
 }
 
 .footer-text {
-    font-size: 22px;
-    left: 25%;
+    font-size: 1.14vmax;
+    left: 25vw;
     position: absolute;
     text-transform: uppercase;
     z-index: 100;
 }
 
 #footer-about-me {
-    top: 2835px;
+    top: 284.8vh;
 }
 
 #footer-skills {
-    top: 2870px;
+    top: 288.3vh;
 }
 
 #footer-experiences {
-    top: 2905px;
+    top: 291.9vh;
 }
 
 #footer-works {
-    top: 2940px;
+    top: 295.5vh;
 }
 
 footer nav div:hover {
-    font-size: 24px;
+    font-size: 1.25vmax;
     transition: 0.1s;
 }
 
 .media-logo {
-    top: 2890px;
-    width: 30px;
+    top: 290vh;
+    width: 1.72vmax;
     z-index: 99;
 }
 
 #github {
-    left: 1600px;
+    left: 83vw;
 }
 
 #linkedin {
-    left: 1650px;
+    left: 85.75vw;
 }
 
 #twitter {
-    left: 1700px;
+    left: 88.5vw;
 }
 
 #instagram {
-    left: 1750px;
+    left: 91.25vw;
 }
 
 .media-logo:hover {
     transition: 0.1s;
-    width: 35px;
+    width: 1.9vmax;
 }
 
 /* Below here only hr appointments */
@@ -332,13 +318,13 @@ hr {
 }
 
 #list-of-skills{
-    top: 600px;
+    top: 75vh;
 }
 
 #experiences {
-    top: 1050px;
+    top: 105vh;
 }
 
 #works {
-    top: 1900px;
+    top: 186vh;
 }
