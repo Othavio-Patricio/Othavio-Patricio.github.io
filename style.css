@@ -5,10 +5,6 @@ body{
     font-family: 'Oswald', sans-serif;
 }
 
-header, footer, section {
-    display: block;
-}
-
 img {
     position: absolute;
 }
@@ -51,6 +47,11 @@ img {
 .main-images {
     width: 1250px;
     z-index: 85;
+}
+
+.work-txt, .list {
+    border: none;
+    box-shadow: 5px 5px 20px #2D3139;
 }
 
 /* Align of 3 boxes column */
@@ -147,10 +148,18 @@ img {
     font-weight: 400;
 }
 
-li {
+section div ul li {
     list-style: none;
-    padding-left: 20px;
+    padding-left: 10%;
     text-align: left;
+}
+
+.list:hover {
+    transition: 0.2s;
+    width: 266px;
+    height: 186px;
+    top: 908px;
+    font-size: 24px;
 }
 
 /* Here starts EXPERIENCE */
@@ -249,11 +258,12 @@ li {
     top: 2795px;
     left: 2.3%;
     width: 230px;
+    transition: 0.1s;
 }
 
 .footer-text {
     font-size: 22px;
-    left: 500px;
+    left: 25%;
     position: absolute;
     text-transform: uppercase;
     z-index: 100;
@@ -280,7 +290,7 @@ footer nav div:hover {
     transition: 0.1s;
 }
 
-.logo {
+.media-logo {
     top: 2890px;
     width: 30px;
     z-index: 99;
@@ -302,7 +312,7 @@ footer nav div:hover {
     left: 1750px;
 }
 
-.logo:hover {
+.media-logo:hover {
     transition: 0.1s;
     width: 35px;
 }
@@ -315,6 +325,10 @@ hr {
     color: #EBEBEB;
     background-color: #EBEBEB;
     z-index: 0;
+}
+
+#about-me {
+    top: -10px;
 }
 
 #list-of-skills{
