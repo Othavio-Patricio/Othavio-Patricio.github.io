@@ -138,12 +138,8 @@ img {
     height: 12vw;
 }
 
-#othavio-profile {
-    width: 20vmax;
-}
-
 #description{
-    right: 23.2vw;
+    right: 24.8vw;
     top: 10vw;
 }
 
@@ -153,7 +149,7 @@ img {
     font-size: 1.07vmax;
     height: 8.8vmax;
     position: absolute;
-    top: 50vw;
+    top: 58vw;
     width: 12.8vmax;
 }
 
@@ -161,7 +157,7 @@ img {
     transition: 0.2s;
     width: 13.5vmax;
     height: 9.2vmax;
-    top: 49.6vw;
+    top: 57.6vw;
     font-size: 1.2vmax;
 }
 
@@ -179,12 +175,12 @@ section div ul li {
 /* Here starts EXPERIENCE */
 #usa-experience {
     left: 24.8vw;
-    top: 81vw;
+    top: 89vw;
 }
 
 #othavio-snow {
     right: 0%;
-    top: 72vw;
+    top: 80vw;
 }
 
 /* Here starts the latest works section */
@@ -195,7 +191,7 @@ section div ul li {
     height: 31.7vw;
     position: absolute;
     text-align: center;
-    top: 117.5vw;
+    top: 124.5vw;
     width: 15.3vw;
 }
 
@@ -203,11 +199,11 @@ section div ul li {
     transition: 0.2s;
     width: 16vw;
     height: 32.7vw;
-    top: 117vw;
+    top: 124vw;
 }
 
 .work-img {
-    top: 121.2vw;
+    top: 128.2vw;
     width: 13.85vw;
     z-index: 91;
 }
@@ -215,7 +211,7 @@ section div ul li {
 .work-img:hover {
     transition: 0.2s;
     width: 14.2vw;
-    top: 120.7vw;
+    top: 127.7vw;
 }
 
 /* Here starts the footer */
@@ -227,7 +223,7 @@ section div ul li {
     padding-left: 99.4%;
     padding-top: 9vw;
     position: absolute;
-    top: 158.3vw;
+    top: 166.3vw;
     z-index: 98;
 }
 
@@ -238,7 +234,7 @@ section div ul li {
     margin-bottom: 300px;
     padding: 0.6vmax;
     position: absolute;
-    top: 158.2vw;
+    top: 166.2vw;
     transform: translate(0);
     width: 12.5vmax;
     z-index: 100;
@@ -247,7 +243,7 @@ section div ul li {
 #footer-logo:hover {
     font-size: 2vmax;
     padding: 0.4vmax;
-    top: 158.7vw;
+    top: 166.7vw;
     left: 2.3vw;
     width: 11.4vmax;
     transition: 0.15s;
@@ -262,19 +258,19 @@ section div ul li {
 }
 
 #footer-about-me {
-    top: 160vw;
+    top: 168vw;
 }
 
 #footer-skills {
-    top: 162vw;
+    top: 170vw;
 }
 
 #footer-experiences {
-    top: 164vw;
+    top: 172vw;
 }
 
 #footer-works {
-    top: 166vw;
+    top: 174vw;
 }
 
 footer nav div:hover {
@@ -283,7 +279,7 @@ footer nav div:hover {
 }
 
 .media-logo {
-    top: 163vw;
+    top: 171vw;
     width: 1.72vmax;
     z-index: 99;
 }
@@ -324,13 +320,13 @@ hr {
 }
 
 #list-of-skills{
-    top: 39vw;
+    top: 47vw;
 }
 
 #experiences {
-    top: 57vw;
+    top: 64vw;
 }
 
 #works {
-    top: 105vw;
+    top: 113vw;
 }
