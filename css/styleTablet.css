@@ -1,0 +1,146 @@
+#now, #work1-txt, #work1-img {
+    left: 20vw;
+}
+
+#future, #work3-txt, #work3-img {
+    left: 80vw;
+}
+
+.main-images {
+    width: 75vw;
+    z-index: 85;
+}
+
+
+#about-me-section {
+    position: absolute;
+    margin-left: -2%;
+    width: 100%;
+    margin-top: 12.1vmax;
+    height: 43vw;
+}
+
+#description {
+    right: 10vw;
+    top: 9vw;
+}
+
+
+.list {
+    top: 70vw;
+}
+
+.list:hover {
+    top: 69vw;
+}
+
+
+#usa-experience {
+    left: 15vw;
+    top: 106vw;
+}
+
+#othavio-snow {
+    top: 98vw;
+}
+
+
+.work-txt {
+    top: 153vw;
+}
+
+.work-txt:hover {
+    top: 152.5vw;
+}
+
+.work-img {
+    top: 157.5vw;
+}
+
+.work-img:hover {
+    top: 157vw;
+}
+
+
+#footer-background {
+    padding-top: 14vw;
+    top: 198vw;
+}
+
+#footer-logo {
+    top: 199.2vw;
+}
+
+#footer-logo:hover {
+    top: 199.6vw;
+}
+
+.footer-text {
+    font-size: 1.5vmax;
+    left: 30vw;
+}
+
+#footer-about-me {
+    top: 200vw;
+}
+
+#footer-skills {
+    top: 203.3vw;
+}
+
+#footer-experiences {
+    top: 206.6vw;
+}
+
+#footer-works {
+    top: 209.9vw;
+}
+
+footer nav div:hover {
+    font-size: 1.6vmax;
+    transition: 0.1s;
+}
+
+.media-logo {
+    top: 205.5vw;
+    width: 2.7vw;
+    z-index: 99;
+}
+
+#github {
+    left: 75vw;
+}
+
+#linkedin {
+    left: 79.5vw;
+}
+
+#twitter {
+    left: 84vw;
+}
+
+#instagram {
+    left: 88.5vw;
+}
+
+.media-logo:hover {
+    transition: 0.1s;
+    width: 3.1vw;
+}
+
+
+#about-me {
+    top: -10px;
+}
+
+#list-of-skills{
+    top: 52vw;
+}
+
+#experiences {
+    top: 77vw;
+}
+
+#works {
+    top: 100vw;
+}
