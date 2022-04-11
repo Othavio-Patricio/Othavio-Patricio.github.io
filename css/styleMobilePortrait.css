@@ -12,6 +12,11 @@
     z-index: 85;
 }
 
+/* Header */
+#header-background {
+    padding-bottom: 15vw;
+}
+
 /* About me */
 #about-me-section {
     position: absolute;
