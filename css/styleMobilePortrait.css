@@ -8,7 +8,7 @@
 }
 
 .main-images {
-    width: 75vw;
+    width: 100vw;
     z-index: 85;
 }
 
@@ -23,78 +23,93 @@
 
 #description {
     right: 10vw;
-    top: 9vw;
+    top: 45vw;
 }
 
 /* Main skills */
+
 .list {
-    top: 70vw;
+    top: 130vw;
+    width: 19vw;
 }
 
 .list:hover {
-    top: 69vw;
+    top: 129.5vw;
+    font-size: 1.2vmax;
+    width: 21vw;
 }
 
 /* Experiences */
 #usa-experience {
-    left: 15vw;
-    top: 106vw;
+    left: 10vw;
+    top: 215vw;
 }
 
 #othavio-snow {
-    top: 98vw;
+    top: 170vw;
 }
 
 /* Latest works */
 .work-txt {
-    top: 153vw;
+    top: 275vw;
+    width: 19vw;
+    height: 41vw;
 }
 
 .work-txt:hover {
-    top: 152.5vw;
+    top: 274vw;
+    height: 43vw;
+    width: 20vw;
 }
 
 .work-img {
-    top: 157.5vw;
+    top: 281.3vw;
+    width: 18vw;
 }
 
 .work-img:hover {
-    top: 157vw;
+    top: 280.8vw;
+    width: 18.3vw;
 }
 
 /* Footer */
 #footer-background {
     padding-top: 14vw;
-    top: 198vw;
+    top: 330vw;
 }
 
 #footer-logo {
-    top: 199.2vw;
+    top: 329vw;
+    font-size: 1.9vmax;
+    width: 10vmax;
 }
 
 #footer-logo:hover {
-    top: 199.6vw;
+    left: 2.8vw;
+    top: 330vw;
+    font-size: 1.7vmax;
+    width: 9.5vmax;
 }
 
 .footer-text {
     font-size: 1.5vmax;
-    left: 30vw;
+    left: 33vw;
 }
 
 #footer-about-me {
-    top: 200vw;
+    top: 330.5vw;
 }
 
 #footer-skills {
-    top: 203.3vw;
+    top: 335vw;
 }
 
 #footer-experiences {
-    top: 206.6vw;
+    top: 339.5vw;
 }
 
 #footer-works {
-    top: 209.9vw;
+    top: 344vw;
 }
 
 footer nav div:hover {
@@ -103,30 +118,30 @@ footer nav div:hover {
 }
 
 .media-logo {
-    top: 205.5vw;
-    width: 2.7vw;
+    top: 338vw;
+    width: 4.5vw;
     z-index: 99;
 }
 
 #github {
-    left: 75vw;
+    left: 72vw;
 }
 
 #linkedin {
-    left: 79.5vw;
+    left: 78.5vw;
 }
 
 #twitter {
-    left: 84vw;
+    left: 85vw;
 }
 
 #instagram {
-    left: 88.5vw;
+    left: 91.5vw;
 }
 
 .media-logo:hover {
     transition: 0.1s;
-    width: 3.1vw;
+    width: 5vw;
 }
 
 /* hr positioning */
@@ -135,13 +150,13 @@ footer nav div:hover {
 }
 
 #list-of-skills{
-    top: 52vw;
+    top: 100vw;
 }
 
 #experiences {
-    top: 77vw;
+    top: 150vw;
 }
 
 #works {
-    top: 100vw;
+    top: 250vw;
 }
