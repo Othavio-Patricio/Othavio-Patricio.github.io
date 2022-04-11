@@ -29,12 +29,12 @@
 /* Main skills */
 
 .list {
-    top: 130vw;
+    top: 122vw;
     width: 19vw;
 }
 
 .list:hover {
-    top: 129.5vw;
+    top: 121.5vw;
     font-size: 1.2vmax;
     width: 21vw;
 }
@@ -42,51 +42,51 @@
 /* Experiences */
 #usa-experience {
     left: 10vw;
-    top: 215vw;
+    top: 207vw;
 }
 
 #othavio-snow {
-    top: 170vw;
+    top: 162vw;
 }
 
 /* Latest works */
 .work-txt {
-    top: 275vw;
+    top: 263vw;
     width: 19vw;
     height: 41vw;
 }
 
 .work-txt:hover {
-    top: 274vw;
+    top: 262vw;
     height: 43vw;
     width: 20vw;
 }
 
 .work-img {
-    top: 281.3vw;
+    top: 269.3vw;
     width: 18vw;
 }
 
 .work-img:hover {
-    top: 280.8vw;
+    top: 269vw;
     width: 18.3vw;
 }
 
 /* Footer */
 #footer-background {
     padding-top: 14vw;
-    top: 330vw;
+    top: 320vw;
 }
 
 #footer-logo {
-    top: 329vw;
+    top: 319vw;
     font-size: 1.9vmax;
     width: 10vmax;
 }
 
 #footer-logo:hover {
     left: 2.8vw;
-    top: 330vw;
+    top: 320vw;
     font-size: 1.7vmax;
     width: 9.5vmax;
 }
@@ -97,19 +97,19 @@
 }
 
 #footer-about-me {
-    top: 330.5vw;
+    top: 320.5vw;
 }
 
 #footer-skills {
-    top: 335vw;
+    top: 325vw;
 }
 
 #footer-experiences {
-    top: 339.5vw;
+    top: 329.5vw;
 }
 
 #footer-works {
-    top: 344vw;
+    top: 334vw;
 }
 
 footer nav div:hover {
@@ -118,7 +118,7 @@ footer nav div:hover {
 }
 
 .media-logo {
-    top: 338vw;
+    top: 328vw;
     width: 4.5vw;
     z-index: 99;
 }
